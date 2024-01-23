@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="NjqTVvnX_yTq9KFM5oEwLczL-DvbkvXoBPUcXqdW" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>User Interest Evaluation</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>User Interest Evaluation</title>
+        <adlcp:dataFromLMS>eyJjcHYiOiJCUFVjWHFkVyJ9</adlcp:dataFromLMS>
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+        <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/7VrPvraFxWeWoYxF_small_1514971494.jpg" />
+<file href="scormcontent/assets/bevLdhoj80p2a9WP_small.png" />
+<file href="scormcontent/assets/4jm-5l1aR-dPDjgb_small.png" />
+<file href="scormcontent/assets/FL4G6gJ1LiRLBXY6_small.png" />
+<file href="scormcontent/assets/U7Z49Gu_8UUy75on_WaqPeQzuB6KJBnMP.png" />
+<file href="scormcontent/assets/kntEh09_jfqvp7Q4_0jF_uG9_NCGPoxW8-stock-image.jpg" />
+<file href="scormcontent/assets/g6eFrxBXdKj8mn6z_Cmf9_1zZeuWrkIVx-stock-image.jpg" />
+<file href="scormcontent/assets/yJ2OTy2whz2pvxYJ_thwEtyQ0Tiq3T9QH-stock-image.jpg" />
+<file href="scormcontent/assets/XQXmhswjCW_rPWC1_rcx3BhuA_dqofYEh-stock-image.jpg" />
+<file href="scormcontent/assets/NwZCmJLnAxoAVa-D_KnlWk5FoehswITA0-stock-image.jpg" />
+<file href="scormcontent/assets/zUDKwLPcOHvlHOIq_4YAPVb8N6fpq3ddb-stock-image.jpg" />
+<file href="scormcontent/assets/jB2l8HYqZwrxz9Ec_7_hospitality.jpg" />
+<file href="scormcontent/assets/v0GmAZUR5aPab6b__example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
